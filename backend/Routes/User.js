@@ -9,4 +9,11 @@ router.post("/registration",userRegistration.userRegistration);
 router.post("/login",UserLogin.userLogin);
 router.post("/home",UserHome.userDetailes);
 
+router.get('/timezone',(req,res)=>{
+
+    let time = Date.now;
+    res.json(time)
+
+})
+
 module.exports = router;

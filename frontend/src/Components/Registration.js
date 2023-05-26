@@ -19,11 +19,11 @@ function Registration() {
     data.append("password",password);
     data.append("file",selectedFile);
 
-    const headers = {
-      headers: {
-          "Content-Type": "multipart/form-data",
-        },
-    }
+    // const headers = {
+    //   headers: {
+    //       "Content-Type": "multipart/form-data",
+    //     },
+    // }
 }
 
 

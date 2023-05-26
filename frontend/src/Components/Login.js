@@ -3,7 +3,9 @@ import Input from './Input'
 import Button from './Button'
 import { Link } from 'react-router-dom'
 
+
 function Login() {
+
   return (
     <div className='flex flex-col justify-center items-center'>
       <h1 className='text-lime-400 text-2xl font-bold mt-5'>Leeyet Login</h1>
